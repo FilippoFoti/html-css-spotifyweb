@@ -8,5 +8,81 @@
 /* COMMON */
 body {
     font-family: 'Montserrat', sans-serif;
-    background-color: aqua;
+}
+
+img {
+    max-width: 100%;
+}
+
+/* HEADER */
+
+/* MAIN */
+
+#spotify {
+    width: 100%;
+    height: calc(100vh - 70px);
+    display: flex;
+    background-color: rgba(20, 25, 34, 1);
+}
+
+.sidebar {
+    height: 100%;
+    width: 250px;
+    background-color: black;
+}
+.menu {
+    height: 500px;
+    width: 250px;
+    background-color: lightgreen;
+
+}
+
+.content {
+    height: 100%;
+    width: calc(100% - 250px);
+    overflow-y: auto;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 70px;
+}
+
+.header {
+    height: 70px;
+    background-color: black;
+    opacity: 0.5;
+    width: calc(100% - 250px);
+    position: fixed;
+    z-index: 999;
+    top: 0;
+    left: 250px;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+}
+
+.header-nav {
+    width: 200px;
+    height: 70px;
+    background-color: lightgreen;
+}
+
+.content-menu {
+    width: 60%;
+    height: 50px;
+    background-color: lightgreen;
+}
+
+.first {
+    padding-top: 70px;
+}
+
+
+/* FOOTER */
+
+footer {
+    height: 70px;
+    width: 100%;
+    background-color: rgba(40, 40, 40, 1);
 }
