@@ -8,6 +8,7 @@
 /* COMMON */
 body {
     font-family: 'Montserrat', sans-serif;
+    font-weight: 600;
 }
 
 img {
@@ -34,15 +35,106 @@ img {
     justify-content: space-between;
 }
 .menu {
-    height: 400px;
+    /* height: 400px; */
     width: 250px;
-    background-color: lightgreen;
+    /* background-color: lightgreen; */
+}
+
+.logo {
+    display: block;
+    margin: 10px 90px 20px 20px;
+}
+
+.logo-small {
+    display: none;
+}
+
+.menu .green {
+   color: white;
+   border-left: 3px solid rgba(173, 255, 47, 1);
+}
+
+.menu .green .home {
+    margin-left: 17px;
+}
+
+.menu ul li {
+    margin-left: 20px;
+    list-style-type: none;
+    line-height: 1.5rem;
+    font-size: 0.6rem;
+    color: rgba(107, 107, 107, 1);
+}
+
+.menu ul li img {
+    width: 10%;
+    vertical-align: middle;
+    margin-right: 4px;
+}
+
+.menu h4 {
+   /* font-size: ; */
+   margin-left: 20px; 
+   padding-top: 20px;
+   color: white;
+   font-size: 0.9rem;
+}
+
+.menu ul li i {
+    font-size: 2.5rem;
+    vertical-align: middle;
+    padding-right: 5px;
+}
+
+.menu ul li:hover {
+    color: white;
+    cursor: pointer;
 }
 
 .install {
-    height: 100px;
     width: 250px;
-    background-color: lightgreen;
+}
+
+.install p img {
+    width: 6%;
+    vertical-align: middle;
+    margin-right: 15px;
+}
+
+.install p {
+    font-size: 0.6rem;
+    color: rgba(107, 107, 107, 1);
+    margin-left: 20px;
+    padding-bottom: 7px;
+}
+
+.install p:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.install hr {
+    width: 85%;
+    margin: 0 auto;
+}
+
+.install h5 img {
+    width: 19px;
+    height: 20px;
+    border-radius: 50%;
+    background-color: rgba(107, 107, 107, 1);
+    object-fit: cover;
+    margin-left: 20px;
+    margin-right: 10px;
+}
+
+.install h5 {
+    padding-top: 7px;
+    color: white;
+    display: flex;
+    align-items: center;
+    font-size: 0.8rem;
+    padding-bottom: 5px;
 }
 
 .content {
@@ -63,19 +155,31 @@ img {
     z-index: 999;
     top: 0;
     left: 250px;
-    color: white;
     display: flex;
     align-items: center;
     justify-content: right;
 }
 
 .header-nav {
-    width: 200px;
     height: 70px;
-    background-color: lightgreen;
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-right: 20px;
+}
+
+.header-nav a {
+    padding: 10px 25px;
+    border-radius: 50px;
+    text-decoration: none;
+    font-size: 0.7rem;
+    background-color: rgba(0, 0, 0, 0.5);
+    border: 2px solid white;
+    color: white;
+}
+
+.header-nav a:hover {
+    transform: scale(1.1);
 }
 
 .content-menu {
