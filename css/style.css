@@ -72,7 +72,7 @@ img {
 
 .menu h4 {
    /* font-size: ; */
-   margin-left: 20px; 
+   margin-left: 20px;
    padding-top: 20px;
    color: white;
    font-size: 0.9rem;
@@ -275,26 +275,26 @@ img {
     border-radius: 50%;
 }
 
-.box img:hover {
-    opacity: 0.5;
+.box .play {
+    position: relative;
 }
 
-.box img:hover .pippo {
-    font-size: 2.5rem;
-    color: white;
-    position: absolute;
-    top: 50px;
-    left: 50px;
-    /* display: block; */
+.box .play:hover img {
+    opacity: 0.5;
 }
 
 .box i {
     font-size: 2.5rem;
-    color: rgba(0, 0, 0, 0);
+    color: white;
+    display: none;
+}
+
+.box .play:hover i {
     position: absolute;
-    top: 50px;
-    left: 50px;
-    /* display: none; */
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: block;
 }
 
 /* FOOTER */
@@ -323,12 +323,12 @@ footer {
     background-color: white;
 }
 
-.play {
+/* .play {
     width: 40%;
     margin: 0 auto;
     height: 50px;
     background-color: white;
-}
+} */
 
 .volume {
     width: 250px;
