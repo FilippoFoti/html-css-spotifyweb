@@ -5,29 +5,10 @@
 /* XS 600PX */
 
 @media screen and (max-width: 600px) {
+    /* SIDEBAR */
+
     .sidebar {
         width: 40px;
-    }
-
-    .content {
-        width: calc(100% - 40px);
-    }
-
-
-
-    .menu span, h4{
-        display: none;
-    }
-
-    .install span {
-        display: none;
-    }
-
-    .install p {
-        margin-left: 0;
-    }
-    .install h5 img {
-        margin-left: 0;
     }
 
     .logo {
@@ -40,6 +21,10 @@
         margin: 5px;
     }
 
+    .menu span, h4{
+        display: none;
+    }
+
     .menu ul li img {
         margin-right: 0;
     }
@@ -49,12 +34,6 @@
         margin: 9px;
     }
 
-
-    .header {
-        width: calc(100% - 40px);
-        left: 40px;
-    }
-
     .menu .green {
         border-left: none;
     }
@@ -62,6 +41,19 @@
     .menu .green .home {
         margin-left: 0;
         margin: 8px;
+    }
+
+    .install span {
+        display: none;
+    }
+
+    .install p {
+        margin-left: 0;
+        padding: 0;
+    }
+
+    .install h5 img {
+        margin-left: 0;
     }
 
     .install p img {
@@ -76,11 +68,20 @@
         margin-bottom: 5px;
     }
 
-    .install p {
-        padding: 0;
-    }
-    
     .install h5 {
         padding: 0;
+    }
+
+    /* HEADER */
+
+    .header {
+        width: calc(100% - 40px);
+        left: 40px;
+    }
+
+    /* CONTENT */
+
+    .content {
+        width: calc(100% - 40px);
     }
 }

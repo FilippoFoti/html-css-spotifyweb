@@ -35,9 +35,7 @@ img {
     justify-content: space-between;
 }
 .menu {
-    /* height: 400px; */
     width: 250px;
-    /* background-color: lightgreen; */
 }
 
 .logo {
@@ -136,6 +134,8 @@ img {
     font-size: 0.8rem;
     padding-bottom: 5px;
 }
+
+/* CONTENT */
 
 .content {
     height: 100%;
