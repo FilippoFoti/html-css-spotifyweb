@@ -7,7 +7,16 @@
         flex-wrap: wrap;
     }
 
-    
+    .row {
+        flex-wrap: wrap;
+    }
+
+    .box {
+        width: calc(100% / 4 - 10px);
+    }
+    .album h2 {
+        font-size: 1.5rem;
+    }
 }
 
 /* S 700PX */
@@ -16,6 +25,16 @@
     .content-menu {
         width: 80%;
     }
+
+    .box {
+        width: calc(100% / 2 - 10px);
+    }
+
+    .box h3 {
+        font-size: 1rem;
+    }
+
+
     
 }
 /* XS 600PX */
