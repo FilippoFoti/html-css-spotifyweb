@@ -34,7 +34,25 @@
         font-size: 1rem;
     }
 
+    .singer {
+        width: 185px;
+    }
 
+    .singer .reproduction img {
+        width: 25%;
+    }
+
+    .singer .footer-icon1 {
+        display: block;
+    }
+
+    .volume {
+        width: 220px;
+    }
+
+    .volume .footer-icon3 {
+        gap: 10px;
+    }
     
 }
 /* XS 600PX */
