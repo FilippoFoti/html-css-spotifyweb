@@ -33,6 +33,7 @@ img {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
+    overflow-y: hidden;
 }
 .menu {
     width: 250px;
@@ -54,6 +55,11 @@ img {
 
 .menu .green .home {
     margin-left: 17px;
+}
+
+.menu .bonus {
+    overflow-y: auto;
+    height: 30vh;
 }
 
 .menu ul li {
