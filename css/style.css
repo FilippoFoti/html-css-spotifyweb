@@ -87,6 +87,7 @@ img {
 .menu ul li:hover {
     color: white;
     cursor: pointer;
+    filter: brightness(100);
 }
 
 .install {
